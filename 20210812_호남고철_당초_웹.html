@@ -110,7 +110,7 @@ body { height: 98%; margin: 0; padding:0 }
 <button onclick="setOverlayMapTypeId('use_district')">지적편집도 보기</button>
 <button onclick="setOverlayMapTypeId('normal')">기본</button>
 <input type="checkbox" id="chkMunhwa" onclick="setOverlay1('munhwa')" /> 문화재조사
-<input type="checkbox" id="chkDangcho" onclick="setOverlay2('dangcho')" checked="checked"/> 당초
+<input type="checkbox" id="chkDangcho" onclick="setOverlay2('dangcho')" /> 당초
 <input type="checkbox" id="chkbyunkyung1" onclick="setOverlay3('byunkyung1')" /> 변경1차
 <input type="checkbox" id="chkbyunkyung2" onclick="setOverlay4('byunkyung2')" /> 변경2차
 /                                /
@@ -883,7 +883,7 @@ function removePolyline_byunkyung2() {
 
 
 
-setOverlay2(dangcho);
+
 
 
 
@@ -9533,17 +9533,17 @@ function displayCustomLevelAll() {
 	var CustomOverlay = new daum.maps.CustomOverlay({position: new daum.maps.LatLng(34.9863211373493, 126.388944807315),
                content: '<div class ="label"><span class="left"></span><span class="center">900</span><span class="right"></span></div>', removable: true });
                CustomOverlay.setMap(map);
-            //   CustomOverlays_L_A.push(CustomOverlay); //�迭�� ������ Ŀ���ҿ������̸� �߰��մϴ�
+               CustomOverlays_L_A.push(CustomOverlay); //�迭�� ������ Ŀ���ҿ������̸� �߰��մϴ�
 
                var CustomOverlay = new daum.maps.CustomOverlay({position: new daum.maps.LatLng(34.9872281718374, 126.38892894318),
                content: '<div class ="label"><span class="left"></span><span class="center">800</span><span class="right"></span></div>', removable: true });
                CustomOverlay.setMap(map);
-            //   CustomOverlays_L_A.push(CustomOverlay); //�迭�� ������ Ŀ���ҿ������̸� �߰��մϴ�
+               CustomOverlays_L_A.push(CustomOverlay); //�迭�� ������ Ŀ���ҿ������̸� �߰��մϴ�
 
                var CustomOverlay = new daum.maps.CustomOverlay({position: new daum.maps.LatLng(34.9881304584792, 126.388922630559),
                content: '<div class ="label"><span class="left"></span><span class="center">700</span><span class="right"></span></div>', removable: true });
                CustomOverlay.setMap(map);
-            //   CustomOverlays_L_A.push(CustomOverlay); //�迭�� ������ Ŀ���ҿ������̸� �߰��մϴ�
+               CustomOverlays_L_A.push(CustomOverlay); //�迭�� ������ Ŀ���ҿ������̸� �߰��մϴ�
 
                var CustomOverlay = new daum.maps.CustomOverlay({position: new daum.maps.LatLng(34.9890314535282, 126.388915542396),
                content: '<div class ="label"><span class="left"></span><span class="center">600</span><span class="right"></span></div>', removable: true });
