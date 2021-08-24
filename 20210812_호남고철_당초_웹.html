@@ -110,7 +110,7 @@ body { height: 98%; margin: 0; padding:0 }
 <button onclick="setOverlayMapTypeId('use_district')">지적편집도 보기</button>
 <button onclick="setOverlayMapTypeId('normal')">기본</button>
 <input type="checkbox" id="chkMunhwa" onclick="setOverlay1('munhwa')" /> 문화재조사
-<input type="checkbox" id="chkDangcho" onclick="setOverlay2('dangcho')" checked="checked" /> 당초
+<input type="checkbox" id="chkDangcho" onclick="setOverlay2('dangcho')" checked="checked"/> 당초
 <input type="checkbox" id="chkbyunkyung1" onclick="setOverlay3('byunkyung1')" /> 변경1차
 <input type="checkbox" id="chkbyunkyung2" onclick="setOverlay4('byunkyung2')" /> 변경2차
 /                                /
@@ -880,6 +880,10 @@ function removePolyline_byunkyung2() {
     }   
     polyline_byunkyung2 = [];
 }
+
+
+
+setOverlay2(dangcho);
 
 
 
